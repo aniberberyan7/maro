@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Էդո Բերբերյան",
+      "email": "edoberberyan@gmail.com",
+      "phone": "+374 93 448055",
+      "purchases": [
+        { "id": 1, "date": "2025-05-15" },
+        { "id": 4, "date": "2025-05-15" },
+        { "id": 6, "date": "2025-05-19" },
+        { "id": 8, "date": "2025-05-19" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "/images/products/img-1.jpg",
+      "title": "Hoti Noodle",
+      "description": "Hoti Noodle - Chili Chicken Flavor",
+      "basePrice": 89.0,
+      "discountPercent": 20,
+      "rating": 4.2,
+      "categories": ["actions", "food"],
+      "weight": "400 г"
+    },
+    {
+      "id": 2,
+      "img": "/images/products/img-2.jpg",
+      "title": "Instant Noodle",
+      "description": "Instant Noodle – Hoti Kara – Chili Chicken Flavor",
+      "basePrice": 89.0,
+      "discountPercent": 15,
+      "rating": 4.5,
+      "categories": ["actions", "dairy"],
+      "volume": "1 л"
+    },
+    {
+      "id": 3,
+      "img": "/images/products/img-3.jpg",
+      "title": " Hoti Kara",
+      "description": " Hoti Kara – Chili Chicken Flavor",
+      "basePrice": 350.0,
+      "discountPercent": 25,
+      "rating": 4.8,
+      "categories": ["actions", "meat"],
+      "weight": "500 г"
+    },
+    {
+      "id": 4,
+      "img": "/images/products/img-4.jpg",
+      "title": "Tuna in Olive Oil",
+      "description": "Delicious, light-textured, and high-quality tuna, with no additives or preservatives. Perfect for quick lunches or dinners.",
+      "basePrice": 250.0,
+      "discountPercent": 10,
+      "rating": 2.4,
+      "categories": ["actions", "meat"],
+      "weight": "400 г"
+    },
+    {
+      "id": 5,
+      "img": "/images/products/img-5.jpg",
+      "title": "Колбаса Сальчинон",
+      "description": "Колбаса сырокопченая",
+      "basePrice": 599.99,
+      "discountPercent": 0,
+      "rating": 3.5,
+      "categories": ["meat"],
+      "weight": "600 г"
+    },
+    {
+      "id": 6,
+      "img": "/images/products/img-6.jpg",
+      "title": "Tomato paste",
+      "description": "Tomato paste",
+      "basePrice": 134.99,
+      "discountPercent": 0,
+      "rating": 5,
+      "categories": ["dairy", "new"],
+      "weight": "180 г"
+    },
+    {
+      "id": 7,
+      "img": "/images/products/img-7.jpg",
+      "title": "Eggplant dish",
+      "description": "Eggplant dish",
+      "basePrice": 359.99,
+      "discountPercent": 0,
+      "rating": 5,
+      "categories": ["meat", "new"],
+      "weight": "700 г"
+    },
+    {
+      "id": 8,
+      "img": "/images/products/img-8.jpg",
+      "title": "Canned Beans with Mushrooms",
+      "description": "Canned Beans with Mushrooms",
+      "basePrice": 64.99,
+      "discountPercent": 0,
+      "rating": 5,
+      "categories": ["dairy", "new"],
+      "weight": "100 г"
+    },
+    {
+      "id": 9,
+      "img": "/images/products/img-9.jpg",
+      "title": "Canned eggplant dish",
+      "description": "Canned eggplant dish",
+      "basePrice": 55,
+      "discountPercent": 0,
+      "rating": 5,
+      "categories": ["bread", "new"],
+      "weight": "134 г"
+    }
+  ]
+}
