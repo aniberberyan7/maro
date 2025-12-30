@@ -52,12 +52,14 @@ export default function NewYearPopup() {
             <span
               key={i}
               className="confetti-piece"
-              style={{
-                backgroundColor: `hsl(${Math.random() * 360},80%,60%)`,
-                "--x": `${-200 + Math.random() * 400}px`,
-                "--y": `${-200 + Math.random() * 400}px`,
-                animationDelay: `${Math.random() * 0.3}s`,
-              }}
+              style={
+                {
+                  backgroundColor: `hsl(${Math.random() * 360},80%,60%)`,
+                  "--x": `${-200 + Math.random() * 400}px`,
+                  "--y": `${-200 + Math.random() * 400}px`,
+                  animationDelay: `${Math.random() * 0.3}s`,
+                } as React.CSSProperties & Record<string, string>
+              }
             />
           ))}
         </div>
@@ -87,9 +89,7 @@ export default function NewYearPopup() {
           top: -20px;
           color: white;
           opacity: 0.9;
-          animation:
-            snow-fall linear infinite,
-            snow-sway ease-in-out infinite;
+          animation: snow-fall linear infinite, snow-sway ease-in-out infinite;
         }
 
         @keyframes snow-fall {
