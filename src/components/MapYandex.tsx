@@ -12,7 +12,7 @@ const MapYandex = () => {
             <section>
                 <div className="flex flex-col justify-center xl:max-w-[1208px]">
                     <h2 className="text-2xl xl:text-4xl text-left font-bold text-[#414141] mb-4 md:mb-8 xl:mb-10">
-                        Մեր խանութները
+                        Our Stores
                     </h2>
                     <div className="mb-5 flex gap-x-2 gap-y-3 flex-wrap">
                         {(Object.keys(locations)).map((cityKey) => {

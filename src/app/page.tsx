@@ -20,8 +20,8 @@ export default function Home() {
       <Purchases />
       <SpecialOffer />
       {/* <MapLibre /> */}
-      <MapYandex />
       <Articles />
+      <MapYandex />
       <NewYearPopup />
 
     </div>

@@ -10,14 +10,14 @@ const Articles = () => {
     <section>
       <div className="flex flex-col justify-center xl:max-w-[1208px] text-[#414141]">
         <div className="mb-4 md:mb-8 xl:mb-10 flex flex-row justify-between">
-          <h2 className="text-2xl xl:text-4xl text-left font-bold">Статьи</h2>
+          <h2 className="text-2xl xl:text-4xl text-left font-bold">Articles</h2>
           <Link href="#" className="flex flex-row items-center gap-x-2 cursor-pointer">
             <p className="text-base text-center text-[#606060] hover:text-[#bfbfbf] duration-300">
-              К статьям
+              To articles
             </p>
             <Image
               src={iconRight}
-              alt="К статьям"
+              alt="To articles"
               width={24}
               height={24}
               sizes="24px"
@@ -51,7 +51,7 @@ const Articles = () => {
                     {article.text}
                   </p>
                   <button className="rounded mt-auto w-37.5 h-10 bg-[#E5FFDE] text-base text-[#70C05B] hover:bg-(--color-primary) hover:shadow-(--shadow-button-default) hover:text-white active:shadow-(--shadow-button-active) duration-300 cursor-pointer">
-                    Մանրամասներ
+                    Read more
                   </button>
                 </div>
               </article>

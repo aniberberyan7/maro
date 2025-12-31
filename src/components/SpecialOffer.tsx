@@ -9,7 +9,7 @@ const SpecialOffers = () => {
       <div className="flex flex-col mb-4 md:mb-8 xl:mb-10 justify-between text-[#414141]">
         <div className="flex flex-col gap-4 md:w-[737px] xl:w-full mx-auto">
           <h2 className="text-2xl xl:text-4xl text-left font-bold mb-4 md:mb-8">
-            Հատուկ առաջարկներ
+            Special Offers
           </h2>
           <div className="flex flex-col md:flex-row gap-4 items-center xl:w-auto ">
              {/* Баннер с картой - всегда видим */}

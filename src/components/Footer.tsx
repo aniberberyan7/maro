@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Логотип со ссылкой на главную */}
         <div className="logo">
           <Link href="/" className="relative w-23 h-16 md:w-16 md:h-11 block">
-            <Image src="/icons-footer/logo-footer-1.png" alt="Логотип" fill />
+            <Image src="/icons-footer/logo-footer-2.png" alt="Логотип" fill />
           </Link>
         </div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="social flex flex-row gap-x-5 md:flex-col xl:flex-row gap-y-3 justify-between">
           <div className="flex gap-x-5 items-start flex-wrap">
             <a
-              href="https://ig.me/edoberberyan"
+              href="https://ig.me/maro"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -31,7 +31,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://fb.me/edoberberyan"
+              href="https://fb.me/maro"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://wa.me/+37493448055"
+              href="https://wa.me/70733609"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://t.me/edoberberyan"
+              href="https://t.me/maro"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,7 +82,7 @@ const Footer = () => {
               className="hover:opacity-80 transition-opacity duration-300"
             />
             <p className="text-base hover:text-black duration-300">
-              +374 93 44 80 55
+              70733609
             </p>
           </a>
           </div>
@@ -93,19 +93,19 @@ const Footer = () => {
         <nav className="nav">
           <ul className="flex flex-wrap gap-x-8 text-xs gap-4 xl:gap-y-2 md:gap-x-10">
             <li className="hover:text-black cursor-pointer">
-              <Link href="#">Մեր մասին</Link>
+              <Link href="#">About Us</Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              <Link href="#">Կապ</Link>
+              <Link href="#">Contacts</Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              <Link href="#">Աշխատատեղեր</Link>
+              <Link href="#">Articles</Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              <Link href="#">Հոդվածներ</Link>
+              <Link href="#">News</Link>
             </li>
             <li className="hover:text-black cursor-pointer">
-              Գաղտնիության քաղաքականություն
+              Privacy Policy
             </li>
           </ul>
         </nav>

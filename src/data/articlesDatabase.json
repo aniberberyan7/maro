@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "img": "/images/articles/article-1.jpg",
-    "title": "Iranian Main dishes & Classics",
-    "text": "1.Kebab koobideh & Doogh – Ground beef & sour yogurt drink. 2.Zereshk polo ba morgh – Rice with barberries and chicken. 3. Morghe Zaferani – Saffron chicken. 4.Polo ba tahdig sibzamini – Rice with Potatoes. 5. Morassa Polo – Rice with different toppings. ...",
+    "img": "/images/articles/article-11.jpg",
+    "title": "Dried Fruits & Almonds Mix",
+    "text": "This delightful combination brings together the natural sweetness of dried fruits with the crunchy richness of almonds. Each bite offers a perfect balance of flavors and textures: soft, chewy dried fruits complement the nutty, satisfying crunch of almonds...",
     "createdAt": "2025-06-01"
   },
   {
     "id": 2,
-    "img": "/images/articles/article-2.jpg",
-    "title": "Types of noodles",
-    "text": "Some of the most common noodle types include spaghetti, udon, soba, ramen, rice vermicelli, ho fun, and pad Thai noodles. Noodles are incredibly versatile—paired with the right sauce, broth, or cooking method, they can create endless flavorful dishes.",
+    "img": "/images/articles/article-21.jpg",
+    "title": "Armenian sweet sujukh",
+    "text": "Armenian sweet sujukh is a traditional treat made from nuts threaded on a string and coated in a thickened grape must, creating a chewy, sweet snack. Typically, walnuts, hazelnuts, or almonds are used, which are carefully strung together and then dipped repeatedly in a mixture of grape juice and flour until a glossy, caramel-like coating forms. Once dried, it becomes a long, rope-like candy that is both nutritious and indulgent.",
     "createdAt": "2025-06-02"
   },
   {
     "id": 3,
-    "img": "/images/articles/article-3.jpg",
-    "title": "Tomato Paste: Quality, Standards, and Competitive Prices",
-    "text": "The tomatoes used are known for their rich flavor and high levels of lycopene. These tomatoes are grown in areas with unique climate conditions ideal for agriculture, making Iranian tomato paste not only flavorful but also nutritious. One of the main advantages of Iranian tomato paste is its natural composition",
+    "img": "/images/articles/article-31.jpg",
+    "title": "Round Sujukh ))",
+    "text": "Round sujukh is a traditional Armenian sweet made by coating nuts—usually walnuts, almonds, or hazelnuts—in a thickened grape juice mixture, forming a chewy, flavorful candy. Unlike the typical long, rope-like sujukh, the round variety is shaped into small, bite-sized balls, making it perfect for snacking or gifting.",
     "createdAt": "2025-06-03"
   }
 ]

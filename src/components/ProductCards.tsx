@@ -70,19 +70,19 @@ const ProductCard = ({img,
           <div className="flex flex-col">
             <div className="flex flex-row gap-x-1 text-sm md:text-lg font-bold text-[#414141]">
               <span>{formatPrice(PriceByCard)}</span>
-              <span>դ․</span>
+              <span>$</span>
             </div>
             {discountPercent > 0 && (
-            <p className="text-[#bfbfbf] text-[8px] md:text-xs">Քարտով</p>
+            <p className="text-[#bfbfbf] text-[8px] md:text-xs">by card</p>
             )}
           </div>
           { FinalPrice!==basePrice && cardDiscountPercent>0 && (
             <div className="flex flex-col">
               <div className="flex flex-row gap-x-1 text-xs md:text-base text-[#606060]">
                 <span>{formatPrice(FinalPrice)}</span>
-                <span>₽</span>
+                <span>$</span>
               </div>
-              <p className="text-[#bfbfbf] text-[8px] md:text-xs text-right">Զեղչված արժեքը</p>
+              <p className="text-[#bfbfbf] text-[8px] md:text-xs text-right">Discounted price</p>
             </div>
           )}
         </div>
@@ -99,7 +99,7 @@ const ProductCard = ({img,
 
         {/* Add to Cart */}
         <button className="w-full h-10 rounded p-2 border border-[var(--color-primary)] text-[var(--color-primary)] hover:text-white hover:bg-[#ff6633] hover:border-transparent active:shadow-[var(--shadow-button-active)] transition-all duration-300 cursor-pointer select-none">
-          Ավելացնել
+          Add to Cart
         </button>
       </div>
     </div>

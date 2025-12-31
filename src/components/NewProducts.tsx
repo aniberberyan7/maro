@@ -15,10 +15,10 @@ const newProducts = database.products.filter(
     <section>
       <div className="flex flex-col justify-center xl:max-w-[1208px]">
         <div className="mb-4 md:mb-8 xl:mb-10 flex flex-row justify-between">
-          <h2 className="text-2xl xl:text-4xl text-left font-bold text-[#414141]">Նոր</h2>
+          <h2 className="text-2xl xl:text-4xl text-left font-bold text-[#414141]">New Products</h2>
           <button className="flex flex-row items-center gap-x-2 cursor-pointer">
             <p className="text-base text-center text-[#606060] hover:text-[#bfbfbf] duration-300">
-              Տեսնել բոլոր նոր ապրանքները
+              See all
             </p>
             <Image
               src={iconRight}
